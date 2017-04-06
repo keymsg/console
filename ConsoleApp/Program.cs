@@ -6,6 +6,10 @@ namespace ConsoleApp
 {
     class Program
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var tempFile = Path.GetTempFileName();
@@ -19,6 +23,7 @@ namespace ConsoleApp
             File.WriteAllLines(tempFile, links);
             foreach (var item in links)
             {
+
                 Console.WriteLine(item);
             }
 
