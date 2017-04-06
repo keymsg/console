@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Net.Http;
-using Confluent.Kafka;
-using Confluent.Kafka.Serialization;
 using System.IO;
 
 namespace ConsoleApp

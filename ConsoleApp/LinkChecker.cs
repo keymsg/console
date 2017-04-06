@@ -18,7 +18,6 @@ namespace ConsoleApp
                     .Where(l => l.StartsWith("http"));
 
             return links.ToList<string>();
-
         }
     }
 }
